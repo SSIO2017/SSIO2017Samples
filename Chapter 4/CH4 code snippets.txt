@@ -1,0 +1,41 @@
+Chapter 4:
+
+PowerShell:
+.\setup.exe /ACTION=install /UPDATEENABLED=false /UPDATESOURCE="d:\downloaded install files"
+Command Line:
+setup.exe /ACTION=install /UPDATEENABLED=false /UPDATESOURCE="D:\downloaded install files"
+
+
+Memory settings in RSReportServer.config 
+<MemorySafetyMargin>80</MemorySafetyMargin>					
+<MemoryThreshold>90</MemoryThreshold>
+
+Advanced Memory settings in RSReportServer.config
+<WorkingSetMaximum>4000000</WorkingSetMaximum>  
+<WorkingSetMinimum>2400000</WorkingSetMinimum>  
+
+select servicename, instant_file_initialization_enabled 
+from sys.dm_server_services
+where filename like '%sqlservr.exe%'
+
+select sql_memory_model_Desc 
+--Conventional = Lock Pages in Memory privilege is not granted
+--LOCK_PAGES = Lock Pages in Memory privilege is granted
+--LARGE_PAGES = Lock Pages in Memory privilege is granted in Enterprise mode with Trace Flag 834 ON
+from sys.dm_os_sys_info 
+
+Backup Service master keys:
+BACKUP SERVICE MASTER KEY TO FILE = 'localfilepath_or_UNC' ENCRYPTION BY PASSWORD = 'complexpassword'	
+And individual database master keys:
+BACKUP MASTER KEY TO FILE = 'localfilepath_or_UNC' ENCRYPTION BY PASSWORD = 'complexpassword'
+
+ALTER DATABASE database_name MODIFY FILE ( NAME = logical_data_file_name, FILENAME = 'location\physical_data_file_name.mdf' );
+ALTER DATABASE database_name MODIFY FILE ( NAME = logical_log_file_name, FILENAME = 'location\physical_log_file_name.ldf' );
+
+alter database databasename set single_user WITH ROLLBACK IMMEDIATE
+--...
+alter database databasename set multi_user
+
+select *
+from sys.dm_exec_sessions
+where db_name(database_id) = 'w'
