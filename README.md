@@ -1,5 +1,5 @@
 # SSIO2017Samples
-Sample code for SQL Server 2017 Administration Inside OUT
+Sample scripts and code to accompany [SQL Server 2017 Administration Inside OUT](https://www.microsoftpressstore.com/store/sql-server-2017-administration-inside-out-9781509305216)
 
 ## Book Authors
 
