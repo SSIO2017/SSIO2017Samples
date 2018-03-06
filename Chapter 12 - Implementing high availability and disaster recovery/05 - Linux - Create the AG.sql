@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 12: IMPLEMENTING HIGH AVAILABILITY AND DISASTER RECOVERY
+-- T-SQL SAMPLE 5
+--
+
 -- Creating the availability group with three synchronous replicas
 
 CREATE AVAILABILITY GROUP [LinuxAG1]

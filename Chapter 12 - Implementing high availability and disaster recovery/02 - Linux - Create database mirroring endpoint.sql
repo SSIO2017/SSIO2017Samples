@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 12: IMPLEMENTING HIGH AVAILABILITY AND DISASTER RECOVERY
+-- T-SQL SAMPLE 2
+--
+
 -- Setting up the database mirroring endpoint user and certificate
 
 USE master;
@@ -12,7 +24,7 @@ GO
 
 -- Create certificate
 IF NOT EXISTS (SELECT * from sys.symmetric_keys
-WHERE name = '##MS_DatabaseMasterKey##')
+	WHERE name = '##MS_DatabaseMasterKey##')
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = '<UseAReallyStrongMasterKeyPassword>';
 
 CREATE CERTIFICATE dbm_certificate WITH SUBJECT = 'dbm';
