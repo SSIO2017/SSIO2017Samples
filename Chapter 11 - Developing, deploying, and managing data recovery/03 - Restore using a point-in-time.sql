@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 11: DEVELOPING, DEPLOYING, AND MANAGING DATA RECOVERY
+-- T-SQL SAMPLE 3
+--
+
 -- Restore point in time using timestamp
 RESTORE LOG [WideWorldImporters]
 FROM

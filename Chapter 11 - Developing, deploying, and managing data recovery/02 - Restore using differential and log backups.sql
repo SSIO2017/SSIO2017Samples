@@ -1,3 +1,16 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 11: DEVELOPING, DEPLOYING, AND MANAGING DATA RECOVERY
+-- T-SQL SAMPLE 2
+--
+
+-- First, restore the full backup
 RESTORE DATABASE [WideWorldImporters]
 FROM
 	DISK = N'C:\SQLData\Backup\SERVER_WideWorldImporters_FULL_20170918_210912.BAK'
@@ -7,6 +20,7 @@ WITH
 	STATS = 5,
 	NORECOVERY;
 GO
+
 -- Second, restore the most recent differential backup
 RESTORE DATABASE [WideWorldImporters]
 FROM
@@ -15,6 +29,7 @@ WITH
 	STATS = 5,
 	NORECOVERY;
 GO
+
 -- Finally, restore all transaction log backups after the differential
 RESTORE LOG [WideWorldImporters]
 FROM
@@ -30,6 +45,7 @@ WITH
 	STATS = 5,
 	NORECOVERY;
 GO
+
 -- Bring the database online
 RESTORE LOG [WideWorldImporters] WITH RECOVERY;
 GO
