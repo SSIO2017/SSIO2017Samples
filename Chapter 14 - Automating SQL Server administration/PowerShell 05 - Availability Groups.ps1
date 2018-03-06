@@ -1,18 +1,28 @@
-Invoke-Command -script {Install-WindowsFeature -Name "Failover-Clustering" } `
+################################################################################
+##
+## SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+##
+## © 2018 MICROSOFT PRESS
+##
+################################################################################
+##
+## CHAPTER 14: AUTOMATING SQL SERVER ADMINISTRATION
+## POWERSHELL SAMPLE 5
+##
+Invoke-Command -Script {Install-WindowsFeature -Name "Failover-Clustering" } `
     -ComputerName SQLDEV11, SQLDEV12, SQLDEV14, SQLDEV15
-Invoke-Command -script {Install-WindowsFeature -Name "RSAT-Clustering-Mgmt" } `
+Invoke-Command -Script {Install-WindowsFeature -Name "RSAT-Clustering-Mgmt" } `
     -ComputerName SQLDEV11, SQLDEV12, SQLDEV14, SQLDEV15
-Invoke-Command -script {Install-WindowsFeature -Name "RSAT-Clustering-PowerShell" } `
+Invoke-Command -Script {Install-WindowsFeature -Name "RSAT-Clustering-PowerShell" } `
     -ComputerName SQLDEV11, SQLDEV12, SQLDEV14, SQLDEV15
 
-#Install-Module SQLSERVER -Force -AllowCLobber 
-#Import-Module SQLSERVER
 
 #Must run on the primary node
 #TODO: configure initial variable values.
 
-    Write-Output "Begin $(Get-Date)"
-#Setup: TODO Configure these
+Write-Output "Begin $(Get-Date)"
+
+# Setup: TODO Configure these
     $PrimaryReplicaName = "SQLSERVER-0"
     $PrimaryReplicaInstanceName = "SQL2K17" #Named instance or DEFAULT for the default instance
     $SecondaryReplicaName1 = "SQLSERVER-1"

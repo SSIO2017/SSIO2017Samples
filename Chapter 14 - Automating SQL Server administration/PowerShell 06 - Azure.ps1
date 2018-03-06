@@ -1,10 +1,22 @@
-﻿#--Begin Setup Block
+﻿################################################################################
+##
+## SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+##
+## © 2018 MICROSOFT PRESS
+##
+################################################################################
+##
+## CHAPTER 14: AUTOMATING SQL SERVER ADMINISTRATION
+## T-SQL SAMPLE 6
+##
+
+###Begin Setup Block
 #Get AzureRM Module
 #Install-Module AzureRM -AllowClobber
 #Associate Azure RM Account
 Login-AzureRmAccount
 #
-#--End Setup Block #
+###End Setup Block #
 
 $ResourceGroupName = "w-ag-20170915"
 $vms = "sqlserver-1","sqlserver-0","cluster-fsw","ad-secondry-dc","ad-primary-dc" #Order matters!

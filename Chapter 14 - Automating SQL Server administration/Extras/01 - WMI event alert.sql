@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 14: AUTOMATING SQL SERVER ADMINISTRATION
+-- EXTRA T-SQL SAMPLE 1
+--
 USE [msdb]
 GO
 --TODO complete all TODO's in below code

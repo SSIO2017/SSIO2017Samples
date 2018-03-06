@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 14: AUTOMATING SQL SERVER ADMINISTRATION
+-- EXTRA T-SQL SAMPLE 2
+--
 --TODO: Find/replace the current operator_name value in this document with your intended operator name
 
 USE [msdb]
