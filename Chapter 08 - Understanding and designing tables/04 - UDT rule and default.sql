@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- T-SQL SAMPLE 4
+--
 CREATE TYPE CustomerNameType FROM NVARCHAR(100) NOT NULL;
 GO
 

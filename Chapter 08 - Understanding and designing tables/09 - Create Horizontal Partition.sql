@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- T-SQL SAMPLE 9
+--
 /*
 	DATABASE HAS
 	- 3 FILEGROUPS: PRIMARY, FILEGROUP2, FILEGROUP3

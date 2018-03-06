@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- EXTRA T-SQL SAMPLE 6
+--
+
 -- Create a new table with a VARBINARY(MAX) field
 CREATE TABLE FILESTREAM_mig_test (
 	Id INT NOT NULL IDENTITY (1, 1) PRIMARY KEY CLUSTERED,

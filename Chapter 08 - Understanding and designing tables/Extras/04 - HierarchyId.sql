@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- EXTRA T-SQL SAMPLE 4
+--
+
 DROP TABLE IF EXISTS HierarchyIdTest;
 
 CREATE TABLE HierarchyIdTest (

@@ -1,3 +1,15 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- EXTRA T-SQL SAMPLE 3
+--
+
 -- Assumes the existence of a sample database (no prerequisites)
 CREATE TABLE CT (
 	Id INT IDENTITY (1, 1),

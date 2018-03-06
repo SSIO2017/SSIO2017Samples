@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- T-SQL SAMPLE 7
+--
 -- ALL creates a union between the history and the current table
 SELECT PersonID, FullName
     , CASE WHEN ValidTo = '9999-12-31 23:59:59.9999999' THEN 1

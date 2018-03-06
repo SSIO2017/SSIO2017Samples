@@ -1,3 +1,14 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 8: UNDERSTANDING AND DESIGNING TABLES
+-- T-SQL SAMPLE 8
+--
 CREATE TABLE People (
     PersonId INT NOT NULL PRIMARY KEY CLUSTERED,
 	FirstName NVARCHAR(50) NOT NULL,
