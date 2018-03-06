@@ -7,7 +7,7 @@
 --##############################################################################
 --
 -- CHAPTER 5: PROVISIONING AZURE SQL DATABASE
--- T-SQL SAMPLE 3
+-- T-SQL SAMPLE 1
 --
 -- Create a blank database on the current logical SQL Server
 CREATE DATABASE Contoso COLLATE Latin1_General_CI_AS

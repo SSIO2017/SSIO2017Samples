@@ -1,0 +1,12 @@
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 6: ADMINISTERING SECURITY AND PERMISSIONS
+-- T-SQL SAMPLE 3
+--
+ALTER AUTHORIZATION ON DATABASE::[databasename] TO [server_principal];
