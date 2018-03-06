@@ -1,11 +1,14 @@
-/*
-	Sample script to accompany SQL Server 2017 Administration Inside Out
-	
-	(c) 2018, All rights reserved.
-	
-	Chapter 5: Provisioning Azure SQL Database
-*/
-
+--##############################################################################
+--
+-- SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+--
+-- © 2018 MICROSOFT PRESS
+--
+--##############################################################################
+--
+-- CHAPTER 5: PROVISIONING AZURE SQL DATABASE
+-- T-SQL SAMPLE 3
+--
 -- Create a blank database on the current logical SQL Server
 CREATE DATABASE Contoso COLLATE Latin1_General_CI_AS
     (EDITION = 'standard', SERVICE_OBJECTIVE = 'S0');

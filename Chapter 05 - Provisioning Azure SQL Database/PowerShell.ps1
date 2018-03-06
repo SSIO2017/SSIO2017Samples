@@ -1,4 +1,15 @@
-﻿# Change me
+﻿################################################################################
+#
+# SAMPLE SCRIPTS TO ACCOMPANY "SQL SERVER 2017 ADMINISTRATION INSIDE OUT"
+#
+# © 2018 MICROSOFT PRESS
+#
+################################################################################
+#
+# CHAPTER 5: PROVISIONING AZURE SQL DATABASE
+# POWERSHELL SAMPLE
+#
+# Change me
 $subscriptionName = 'Pay-As-You-Go'
 
 Install-Module AzureRM
