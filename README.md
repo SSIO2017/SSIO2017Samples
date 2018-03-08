@@ -5,9 +5,11 @@ Sample scripts and code to accompany [SQL Server 2017 Administration Inside OUT]
 
 * William Assaf
     * [@william_a_dba](https://twitter.com/william_a_dba)
+    * [Blog](http://www.sqltact.com/)
     
 * Randolph West
     * [@bornsql](https://twitter.com/bornsql)
+    * [Blog](http://www.bornsql.ca)
     
 * Sven Aelterman
     * [@svenaelterman](https://twitter.com/svenaelterman)
@@ -15,3 +17,4 @@ Sample scripts and code to accompany [SQL Server 2017 Administration Inside OUT]
     
 * Mindy Curnutt
     * [@sqlgirl](https://twitter.com/sqlgirl)
+    * [Blog](http://www.mindycurnutt.com)
